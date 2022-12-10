@@ -11,3 +11,9 @@
   border: 2px solid #640326;
   margin: 3px;
 }
+
+i {
+  color: chartreuse;
+  font-size: 250px;
+  margin: 15px;
+}
