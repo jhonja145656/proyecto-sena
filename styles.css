@@ -1,0 +1,13 @@
+.row {
+  background-color: darkorange;
+  border: 3px solid rgb(100, 73, 5);
+  padding: 5px;
+  margin: 10px;
+}
+.col {
+  background-color: crimson;
+  color: aliceblue;
+  font-size: 50px;
+  border: 2px solid #640326;
+  margin: 3px;
+}
