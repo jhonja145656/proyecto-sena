@@ -12,6 +12,12 @@
 section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: "Rubik Dirt", cursive;
 }
 
 /*SECCION HERO*/
@@ -21,9 +27,30 @@ section {
   text-align: center;
 }
 
+.hero-principal {
+  padding: 3rem;
+}
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.hero-imagen-portada {
+  width: 200;
+  height: 200;
+  border-radius: 50%;
+  margin: 20px;
+}
+
 /*ADAPTABLE (RESPONSIVO)*/
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
   }
 }

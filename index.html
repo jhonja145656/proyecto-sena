@@ -27,6 +27,14 @@
     />
     <!--CSS-->
     <link href="styles.css" rel="stylesheet" />
+
+    <!--Font de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Gemunu+Libre:wght@500&family=Nerko+One&family=Patrick+Hand&family=Roboto&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -78,10 +86,25 @@
 
     <!--SECCION HERO (PRINCIPAL PORTADA)-->
     <section class="hero align-items-stretch">
-      <div>
-        <img img src="imagenes/imagenHero.png" alt="Foto de diseñadora" />
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-portada"
+          img
+          src="imagenes/imagenHero.png"
+          width="250"
+          alt="Foto de diseñadora"
+        />
         <h1>Ambarr Design</h1>
         <h2>Agencia de Publicidad & Diseño Grafico</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="imagenes/heroInferior.png"
+          alt="mesa e implementos de diseño"
+        />
       </div>
     </section>
 
