@@ -20,6 +20,11 @@ h1 {
   font-family: "Rubik Dirt", cursive;
 }
 
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
 /*SECCION HERO*/
 .hero {
   background-color: #f5f6f7;
