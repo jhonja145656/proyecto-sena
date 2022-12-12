@@ -25,6 +25,21 @@ h1 {
   background-color: #1b1b32;
 }
 
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
 /*SECCION HERO*/
 .hero {
   background-color: #f5f6f7;
@@ -45,6 +60,28 @@ h1 {
   height: 200;
   border-radius: 50%;
   margin: 20px;
+}
+
+/*Nosotros*/
+.nosotros {
+  height: 500px;
+  padding: 10px;
+}
+
+.nosotros .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/*EXPERIENCIA*/
+.experiencia {
+  padding: 40px;
+}
+
+.experiencia .row div {
+  height: 250px;
+  background-color: purple;
+  border: solid orange;
 }
 
 /*ADAPTABLE (RESPONSIVO)*/
