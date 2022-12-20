@@ -163,12 +163,26 @@ h1 {
   margin-bottom: 0;
 }
 
+.proyecto {
+  position: relative;
+}
+
 .proyecto:hover img {
   opacity: 0.2;
 }
 
 .proyecto:hover .overlay {
   opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
 }
 
 /*ADAPTABLE (RESPONSIVO)*/
