@@ -38,7 +38,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Chewy&family=Gemunu+Libre:wght@500&family=Nerko+One&family=Patrick+Hand&family=Roboto&family=Rubik+Dirt&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Gemunu+Libre:wght@500&family=Nerko+One&family=Patrick+Hand&family=Roboto&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -433,8 +433,91 @@
 
     <!--TESTIMONIOS-->
     <section class="testimonios seccion-clara">
-      <h2>Testimonios</h2>
-      <h3>Estos son algunos testimonios de nuestros clientes</h3>
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos testimonios de nuestros clientes
+      </h3>
+
+      <!--CARRUSEL-->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/carusel1.PNG"
+                alt="cerrejon"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi a velit eveniet, aliquam hic dignissimos impedit
+                excepturi asperiores, aut nulla magni facilis accusantium
+                aperiam, libero similique neque itaque expedita eius?
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Cerrejon</p>
+                <p class="actividad">Mineria Responsable</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/carusel2.PNG"
+                alt="Camara de comercio"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi a velit eveniet, aliquam hic dignissimos impedit
+                excepturi asperiores, aut nulla magni facilis accusantium
+                aperiam, libero similique neque itaque expedita eius?
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Camara de Comercio de La Guajira</p>
+                <p class="actividad">Registro Empresarial</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/carusel3.PNG"
+                alt="ecopetrol"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi a velit eveniet, aliquam hic dignissimos impedit
+                excepturi asperiores, aut nulla magni facilis accusantium
+                aperiam, libero similique neque itaque expedita eius?
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Ecopetrol</p>
+                <p class="actividad">hidrocarburos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </section>
 
     <!--ESTA PARTE DE BOOTSTRAP QUE PERTENECE AL JAVASCRIPT  SE RECOMIENDA COLOCARLO AL FINAL DEL BODY-->
