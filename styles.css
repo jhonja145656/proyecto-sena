@@ -391,14 +391,8 @@ h1 {
 .overlay p {
   font-size: 25px;
   font-weight: bold;
-<<<<<<< HEAD
   margin: 0;
 }
-=======
-  margin-bottom: 0;
-}
-
->>>>>>> 241d414241343eb4547a941a615a5f15f003f57e
 .proyecto {
   position: relative;
 }
@@ -411,19 +405,6 @@ h1 {
   opacity: 1;
 }
 
-<<<<<<< HEAD
-=======
-.overlay .iconos-contenedor {
-  display: flex;
-}
-
-.overlay i {
-  color: black;
-  font-size: 60px;
-  margin: 10px;
-}
-
->>>>>>> 241d414241343eb4547a941a615a5f15f003f57e
 /*ADAPTABLE (RESPONSIVO)*/
 @media screen and (max-width: 400px) {
   .overlay p {
