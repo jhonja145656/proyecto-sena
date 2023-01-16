@@ -38,7 +38,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Chewy&family=Gemunu+Libre:wght@500&family=Nerko+One&family=Patrick+Hand&family=Roboto&family=Rubik+Dirt&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Gemunu+Libre:wght@500&family=Nerko+One&family=Patrick+Hand&family=Roboto&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -434,36 +434,84 @@
     <!--TESTIMONIOS-->
     <section class="testimonios seccion-clara">
       <h2 class="seccion-titulo">Testimonios</h2>
-      <h3 class="seccion-decripcion">
+      <h3 class="seccion-descripcion">
         Estos son algunos testimonios de nuestros clientes
       </h3>
 
       <!--CARRUSEL-->
-      <div id="testimonios-carousel" class="carousel carousel-dark slide">
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagenes/proyecto1.png" class="d-block w-100" alt="..." />
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/carusel1.PNG"
+                alt="cerrejon"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi a velit eveniet, aliquam hic dignissimos impedit
+                excepturi asperiores, aut nulla magni facilis accusantium
+                aperiam, libero similique neque itaque expedita eius?
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Cerrejon</p>
+                <p class="actividad">Mineria Responsable</p>
+              </div>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="imagenes/proyecto2.png" class="d-block w-100" alt="..." />
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/carusel2.PNG"
+                alt="Camara de comercio"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi a velit eveniet, aliquam hic dignissimos impedit
+                excepturi asperiores, aut nulla magni facilis accusantium
+                aperiam, libero similique neque itaque expedita eius?
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Camara de Comercio de La Guajira</p>
+                <p class="actividad">Registro Empresarial</p>
+              </div>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="imagenes/proyecto3.png" class="d-block w-100" alt="..." />
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="imagenes/carusel3.PNG"
+                alt="ecopetrol"
+              />
+              <p class="testimonio-texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Eligendi a velit eveniet, aliquam hic dignissimos impedit
+                excepturi asperiores, aut nulla magni facilis accusantium
+                aperiam, libero similique neque itaque expedita eius?
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Ecopetrol</p>
+                <p class="actividad">hidrocarburos</p>
+              </div>
+            </div>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#testimonios-carousel"
+          data-bs-target="#testimonios-carrusel"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior </span>
+          <span class="visually-hidden">Anterior</span>
         </button>
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#testimonios-carousel"
+          data-bs-target="#testimonios-carrusel"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -471,6 +519,70 @@
         </button>
       </div>
     </section>
+
+    <!--CONTACTO-->
+    <section class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container text-center rectangulo d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">¡Hablemos!</div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactame para iniciar tu Proyecto Publicitario y hacer de tu
+              Vision una Realidad
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:jhonja145656@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER (PIE DE PAGINA)-->
+    <footer
+      class="seccion oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="imagenes/logo_ambarr.png"
+        alt="logo ambarrpublicidad"
+      />
+      <p class="footer-texto text-center">Pasion por lo que hacemos.</p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://www.instagram.com/ambarrpublicidad/?hl=es"
+          target="_blank"
+          rel="noopener norefer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a
+          href="https://www.facebook.com/AMBARRPUBLICIDAD/"
+          target="_blank"
+          rel="noopener norefer"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+
+        <a
+          href="mailto:johnja145656@gmail.com"
+          target="_blank"
+          rel="noopener norefer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+    </footer>
 
     <!--ESTA PARTE DE BOOTSTRAP QUE PERTENECE AL JAVASCRIPT  SE RECOMIENDA COLOCARLO AL FINAL DEL BODY-->
     <script
