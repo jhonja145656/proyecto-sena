@@ -4,3 +4,8 @@ for numero in range(5):
     if numero == buscar:
         print("numero encontrado:", buscar)
         break
+else:
+    print("no encontre el numero buscado")
+
+for char in "Goya":
+    print(char)
