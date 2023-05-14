@@ -7,4 +7,4 @@ def suma(a, b):
 c = suma(4, 5)
 d = suma(c, 5)
 
-print(d,)
+print(d)
