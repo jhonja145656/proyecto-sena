@@ -1,5 +1,6 @@
 def suma(a, b):
     resultado = a + b
+    # Return permite devolver el valor de lafuncion para ser asignado a una variable o funcion.
     return resultado
 
 
