@@ -1,6 +1,6 @@
-def saludar(nombre):
+def saludar(nombre, apellido):
     print("Hola Mundo!")
-    print(f"bienvenida {nombre}")
+    print(f"bienvenida {nombre} {apellido}")
 
 
-saludar("Tina")
+saludar("Tina", "Angulo")
