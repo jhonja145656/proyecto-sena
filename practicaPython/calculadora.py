@@ -1,7 +1,7 @@
-n1 = input( "Ingresa Primer Numero")
-n2 = input( "Ingresa Segundo Numero")
-n1= int(n1)
-n2= int(n2)
+n1 = input("Ingresa Primer Numero")
+n2 = input("Ingresa Segundo Numero")
+n1 = int(n1)
+n2 = int(n2)
 
 suma = n1 + n2
 resta = n1 - n2
