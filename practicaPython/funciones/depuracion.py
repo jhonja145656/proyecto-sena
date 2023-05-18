@@ -5,5 +5,6 @@ def largo(texto):
     return resultado
 
 
+print('Hello goya')
 l = largo("Hola mundo")
 print(l)
