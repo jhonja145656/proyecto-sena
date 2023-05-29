@@ -149,7 +149,7 @@ class FichaAntropometrica:
         print("Relación cintura-cadera:", self.calcular_relacion_cintura_cadera())
 
 # Crear una instancia de la ficha antropométrica
-ficha = FichaAntropometrica("John Angulo", 46, "Masculino", 1.70, 71, 80, 90)
+ficha = FichaAntropometrica("John Angulo", 46, "Masculino", 1.70, 69, 80, 90)
 
 # Mostrar la ficha antropométrica
 ficha.mostrar_ficha()
