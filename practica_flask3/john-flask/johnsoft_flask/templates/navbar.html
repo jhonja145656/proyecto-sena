@@ -1,0 +1,55 @@
+<!--
+  <nav>
+  <ul>
+    <img
+      src="{{ url_for('static', filename='images/ambarr.jpg')}}"
+      alt="cenefa ambarr"
+    />
+    <li><a href="{{ url_for('index') }}"></a>Ir al Inicio</li>
+    <li>
+      <a
+        href="https://github.com/jhonja145656/proyecto-sena/tree/main/practicaPython"
+        target="_blank"
+        >Ir a mi Repositorio</a
+      >
+    </li>
+  </ul>
+</nav>
+-->
+
+<div class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target=".navbar-collapse"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ url_for('index') }}">
+        <img
+          src="{{ url_for('static', filename='images/ambarr.jpg') }}"
+          style="max-width: 150px"
+          alt="cenefa ambarr"
+        />
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="{{ url_for('index') }}">Inicio</a></li>
+        <li>
+          <a
+            href="https://github.com/jhonja145656/proyecto-sena"
+            target="_blank"
+            >Mi Repositorio</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
