@@ -19,9 +19,12 @@ print(nombreCurso[0:6])
 print(nombreCurso[6:])
 print(nombreCurso[:])
 
+# formatear
 # Format string PY:
 print(nombreCurso.upper())
 print(nombreCurso.lower())
+print(casa.lower())
+
 
 # coloca la primera letra en mayuscula
 print(nombreCurso.capitalize())
